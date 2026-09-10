@@ -3,7 +3,7 @@
 Ya probado de punta a punta en un Postgres local antes de entregarlo:
 esquema aplicado sin errores, los 3 endpoints responden, y la prueba de
 concurrencia con 20 solicitudes simultáneas dio exactamente 1 hold + 19
-rechazos + 0 sobreventa (ver `evidencia_concurrencia.txt`).
+rechazos + 0 sobreventa (ver capturas en `docs/`).
 
 Lo que sigue es correr esto mismo contra **tu** RDS/EC2 del Lab — la
 evidencia para el criterio 10 tiene que salir de tu entorno, no del mío.
